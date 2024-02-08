@@ -120,7 +120,8 @@ async def start(client, message):
         if not msgs:
             file = await client.download_media(file_id)
             try: 
-                with open(file) as file_SpmMD                  msgs=json.loads(file_data.read())
+                with open(file) as file_data:
+                    msgs=json.loads(file_data.read())
             except:
                 await sts.edit("Fᴀɪʟᴇᴅ")movie  return await client.send_message(LOG_CHANNEL, "Uɴᴀʙʟᴇ Tᴏ Oᴘᴇɴ Fɪʟᴇ.")
             os.remove(file)
