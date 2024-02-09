@@ -1139,7 +1139,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('➕ Add Me Your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('👤 Maintained By', callback_data="@flik_7"),
+                    InlineKeyboardButton('👤 Maintained By', url=f"https://t.me/flik_7"),
                     InlineKeyboardButton('❓ Help', callback_data='help'),
                 ],[ 
                     InlineKeyboardButton('🤖 About', callback_data='about'),
@@ -1221,8 +1221,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('Support Group', url=f'https://t.me/+K6DIefAu3SpmMDll'),
-            InlineKeyboardButton('Source Code', callback_data='source')
+            InlineKeyboardButton('Sᴜᴩᴩᴏʀᴛ Gʀᴏᴜᴩ', url=f'https://t.me/+K6DIefAu3SpmMDll'),
+            InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', callback_data='source')
         ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
