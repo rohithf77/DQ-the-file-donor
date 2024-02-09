@@ -24,7 +24,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('👤 Maintained By', link="https://t.me/flik_7"),
+                    InlineKeyboardButton('👤 Maintained By', url=f"https://t.me/flik_7"),
                     InlineKeyboardButton('❓ Help', callback_data='help'),
                 ],[    
                     InlineKeyboardButton('🤖 About', callback_data='about'),
@@ -50,7 +50,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('👤 Maintained By', link="https://t.me/flik_7"),
+                    InlineKeyboardButton('👤 Maintained By', url=f"https://t.me/flik_7"),
                     InlineKeyboardButton('❓ Help', callback_data='help'),
                 ],[
                     InlineKeyboardButton('🤖 About', callback_data='about'),
@@ -96,7 +96,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('👤 Maintained By', link="https://t.me/flik_7"),
+                    InlineKeyboardButton('👤 Maintained By', url=f"https://t.me/flik_7"),
                     InlineKeyboardButton('❓ Help', callback_data='help'),
                 ],[ 
                     InlineKeyboardButton('🤖 About', callback_data='about'),
