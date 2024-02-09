@@ -728,7 +728,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                             reply_markup=InlineKeyboardMarkup(
                                 [
                                 [
-                                InlineKeyboardButton("👤 Maintained By", url="t.me/@flik_7")
+                                InlineKeyboardButton("Group", url="https://t.me/+K6DIefAu3SpmMDll")
                                 ]
                                 ]
                             )
@@ -798,7 +798,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                  InlineKeyboardButton("👤 Maintained By", url="t.me/@fliki_7")
+                  InlineKeyboardButton("Group", url="https://t.me/+K6DIefAu3SpmMDll")
                  ]
                 ]
             )
