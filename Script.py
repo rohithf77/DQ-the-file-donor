@@ -194,7 +194,7 @@ Nᴀᴍᴇ - {}"""
     CAPTION = """
 <b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
 
-👉🏼 @f7moviesofficial </b>"""
+➲ @f7moviesofficial </b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
