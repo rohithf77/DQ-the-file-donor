@@ -728,7 +728,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                             reply_markup=InlineKeyboardMarkup(
                                 [
                                 [
-                                InlineKeyboardButton("Group", url="https://t.me/+K6DIefAu3SpmMDll")
+                                InlineKeyboardButton("➲ Gʀᴏᴜᴩ", url="https://t.me/+K6DIefAu3SpmMDll")
                                 ]
                                 ]
                             )
@@ -798,7 +798,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                  InlineKeyboardButton("Group", url="https://t.me/+K6DIefAu3SpmMDll")
+                  InlineKeyboardButton("➲ Gʀᴏᴜᴩ", url="https://t.me/+K6DIefAu3SpmMDll")
                  ]
                 ]
             )
