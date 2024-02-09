@@ -24,7 +24,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('👤 Maintained By', callback_data="@flik_7"),
+                    InlineKeyboardButton('👤 Maintained By', link="https://t.me/flik_7"),
                     InlineKeyboardButton('❓ Help', callback_data='help'),
                 ],[    
                     InlineKeyboardButton('🤖 About', callback_data='about'),
@@ -50,7 +50,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('👤 Maintained By', callback_data="@flik_7"),
+                    InlineKeyboardButton('👤 Maintained By', link="https://t.me/flik_7"),
                     InlineKeyboardButton('❓ Help', callback_data='help'),
                 ],[
                     InlineKeyboardButton('🤖 About', callback_data='about'),
@@ -96,7 +96,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('👤 Maintained By', callback_data="@flik_7"),
+                    InlineKeyboardButton('👤 Maintained By', link="https://t.me/flik_7"),
                     InlineKeyboardButton('❓ Help', callback_data='help'),
                 ],[ 
                     InlineKeyboardButton('🤖 About', callback_data='about'),
@@ -151,7 +151,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton("👤 Maintained By", url="t.me/flik_7")
+                          InlineKeyboardButton("👤 Maintained By", link="https://t.me/flik_7")
                          ]
                         ]
                     )
@@ -167,7 +167,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton("👤 Maintained By", url="t.me/flik_7")
+                          InlineKeyboardButton("👤 Maintained By", link="https://t.me/flik_7")
                          ]
                         ]
                     )
@@ -283,7 +283,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton("👤 Maintained By", url="t.me/flik_7")
+                      InlineKeyboardButton("👤 Maintained By", link="https://t.me/flik_7")
                      ]
                     ]
                 )
@@ -334,7 +334,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton("👤 Maintained By", url="t.me/flik_7")
+              InlineKeyboardButton("👤 Maintained By", link="https://t.me/flik_7")
              ]
             ]
         )
