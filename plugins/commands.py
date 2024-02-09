@@ -151,7 +151,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton("👤 Maintained By", link="https://t.me/flik_7")
+                          InlineKeyboardButton("➲ Gʀᴏᴜᴩ", link="https://t.me/+K6DIefAu3SpmMDll")
                          ]
                         ]
                     )
@@ -167,7 +167,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton("👤 Maintained By", link="https://t.me/flik_7")
+                          InlineKeyboardButton("➲ Gʀᴏᴜᴩ", link="https://t.me/+K6DIefAu3SpmMDll")
                          ]
                         ]
                     )
@@ -283,7 +283,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton("👤 Maintained By", link="https://t.me/flik_7")
+                      InlineKeyboardButton("➲ Gʀᴏᴜᴩ", link="https://t.me/+K6DIefAu3SpmMDll")
                      ]
                     ]
                 )
@@ -334,7 +334,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton("👤 Maintained By", link="https://t.me/flik_7")
+              InlineKeyboardButton("➲ Gʀᴏᴜᴩ", link="https://t.me/+K6DIefAu3SpmMDll")
              ]
             ]
         )
