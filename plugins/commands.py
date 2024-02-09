@@ -26,6 +26,7 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('👤 Maintained By', callback_data="@flik_7"),
                     InlineKeyboardButton('❓ Help', callback_data='help'),
+                ],[    
                     InlineKeyboardButton('🤖 About', callback_data='about'),
                     InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat='')
                   ]]
@@ -51,6 +52,7 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('👤 Maintained By', callback_data="@flik_7"),
                     InlineKeyboardButton('❓ Help', callback_data='help'),
+                ],[
                     InlineKeyboardButton('🤖 About', callback_data='about'),
                     InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat='')
                   ]]
@@ -96,6 +98,7 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('👤 Maintained By', callback_data="@flik_7"),
                     InlineKeyboardButton('❓ Help', callback_data='help'),
+                ],[ 
                     InlineKeyboardButton('🤖 About', callback_data='about'),
                     InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat='')
                   ]]
