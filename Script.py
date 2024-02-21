@@ -30,6 +30,7 @@ class script(object):
 
     SOURCE_TXT = """<b>𝗡𝗢𝗧𝗘:</b>
 <b>⚠️ 𝖳𝗁𝗂𝗌 𝖡𝗈𝗍 𝖨𝗌 𝖭𝗈𝗍 𝖠𝗇 𝖮𝗉𝖾𝗇 𝖲𝗈𝗎𝗋𝖼𝖾 𝖯𝗋𝗈𝗃𝖾𝖼𝗍.!</b>
+
 <b>DEV:</b>
 
 - <a href=https://t.me/f7xbots>[F7]</a>
